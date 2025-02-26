@@ -1,37 +1,70 @@
-body, h1 {
-  font-family: "Inter", serif;
+* {
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-h1 {
-  font-weight: 600;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.intro {
-  margin: 20px;
+main {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-
-  color: #333;
 }
 
-.intro img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: .4rem solid white;
-  box-shadow: 0 0 15px pink;
+h1 {
+  margin: 38px 0 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  text-align: center;
+  color: #000;
 }
 
-@media (min-width: 724px) {
-  .intro {
-    margin: 20px auto;
-    max-width: 684px;
-    flex-flow: row nowrap;
-  }
+p {
+  margin: 8px 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #636363;
+}
+
+p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  margin: 0 16px;
+  max-width: 480px;
+}
+
+.arrow {
+  margin: 8px 0;
+  width: 40px;
+  height: 52px;
+}
+
+.notion-link {
+  margin: 8px 0;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #058645;
 }
